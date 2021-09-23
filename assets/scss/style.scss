@@ -1,1 +1,69 @@
 @import "../css/reset";
+
+$fontFamH: 'Crushed', cursive;
+$fontF:  'Dosis', sans-serif;
+h1, h2, h3, h4{ font-family: $fontFamH; }
+
+body {
+  background-image: url("../img/background.jpg");
+    & header#homepage{
+      margin:0 auto;
+      @media screen and (max-width:600px)  {
+        padding-top:1rem;
+      }
+      @media screen and (min-width:601px)  {
+        padding-top:9rem;
+      }
+      text-align: center;
+      & h1 {
+        color:white;
+        font-size: 3rem;
+      }
+      & h2 {
+        color:white;
+        font-size: 2rem;
+      }
+    }
+  & main#homepage{
+    @media screen and (max-width:600px)  {
+    padding-top:1rem;
+    }
+    @media screen and (min-width:601px)  {
+    padding-top:8rem;
+    }
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    & figure {
+      width:12rem;
+      padding: 1rem;
+      & figcaption {
+          background-color: #222;
+          color: #fff;
+          font: italic smaller sans-serif;
+          padding: 3px;
+          text-align: center;
+          align-self: flex-end;
+      }
+      & img {
+        width:100%;
+      }
+    }
+  }
+  & footer {
+    font-size:0.7rem ;
+    color:white;
+    text-align: center;
+    position:fixed;
+    bottom:1rem;
+    width:100%;
+    & a{
+      color:white;
+      background-color: #E0E0E060;
+      border-radius: 50%;
+      padding:0.5rem;
+    }
+  }
+
+}

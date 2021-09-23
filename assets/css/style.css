@@ -12,4 +12,79 @@ mark {
   background-color: transparent;
 }
 
+h1, h2, h3, h4 {
+  font-family: "Crushed", cursive;
+}
+
+body {
+  background-image: url("../img/background.jpg");
+}
+body header#homepage {
+  margin: 0 auto;
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  body header#homepage {
+    padding-top: 1rem;
+  }
+}
+@media screen and (min-width: 601px) {
+  body header#homepage {
+    padding-top: 9rem;
+  }
+}
+body header#homepage h1 {
+  color: white;
+  font-size: 3rem;
+}
+body header#homepage h2 {
+  color: white;
+  font-size: 2rem;
+}
+body main#homepage {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 600px) {
+  body main#homepage {
+    padding-top: 1rem;
+  }
+}
+@media screen and (min-width: 601px) {
+  body main#homepage {
+    padding-top: 8rem;
+  }
+}
+body main#homepage figure {
+  width: 12rem;
+  padding: 1rem;
+}
+body main#homepage figure figcaption {
+  background-color: #222;
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+  align-self: flex-end;
+}
+body main#homepage figure img {
+  width: 100%;
+}
+body footer {
+  font-size: 0.7rem;
+  color: white;
+  text-align: center;
+  position: fixed;
+  bottom: 1rem;
+  width: 100%;
+}
+body footer a {
+  color: white;
+  background-color: #E0E0E060;
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+
 /*# sourceMappingURL=style.css.map */

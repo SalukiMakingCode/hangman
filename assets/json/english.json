@@ -1,0 +1,106 @@
+[{
+  "id": 1,
+  "category": "Animal",
+  "word": "bee"
+}, {
+  "id": 2,
+  "category": "Animal",
+  "word": "dog"
+}, {
+  "id": 3,
+  "category": "Animal",
+  "word": "bleak"
+}, {
+  "id": 4,
+  "category": "Animal",
+  "word": "lamb"
+}, {
+  "id": 5,
+  "category": "Animal",
+  "word": "crocodile"
+}, {
+  "id": 6,
+  "category": "Clothes",
+  "word": "shoe"
+}, {
+  "id": 7,
+  "category": "Clothes",
+  "word": "jacket"
+}, {
+  "id": 8,
+  "category": "Clothes",
+  "word": "shirt"
+}, {
+  "id": 9,
+  "category": "Clothes",
+  "word": "sock"
+}, {
+  "id": 10,
+  "category": "Clothes",
+  "word": "tie"
+}, {
+  "id": 11,
+  "category": "Food",
+  "word": "apples"
+}, {
+  "id": 12,
+  "category": "Food",
+  "word": "meat"
+}, {
+  "id": 13,
+  "category": "Food",
+  "word": "potatoes"
+}, {
+  "id": 14,
+  "category": "Food",
+  "word": "candies"
+}, {
+  "id": 15,
+  "category": "Food",
+  "word": "tiramisu"
+}, {
+  "id": 16,
+  "category": "Computer",
+  "word": "keyboard"
+}, {
+  "id": 17,
+  "category": "Transport",
+  "word": "car"
+}, {
+  "id": 18,
+  "category": "Jobs",
+  "word": "computer scientist"
+}, {
+  "id": 19,
+  "category": "Sports",
+  "word": "mountaineering"
+}, {
+  "id": 20,
+  "category": "Body",
+  "word": "mouth"
+}, {
+  "id": 21,
+  "category": "Kitchen",
+  "word": "oven"
+}, {
+  "id": 22,
+  "category": "Garden",
+  "word": "lawn"
+}, {
+  "id": 23,
+  "category": "Building",
+  "word": "church"
+}, {
+  "id": 24,
+  "category": "Music",
+  "word": "guitar"
+}, {
+  "id": 25,
+  "category": "Country",
+  "word": "belgium"
+}, {
+  "id": 26,
+  "category": "Furniture",
+  "word": "wardrobe"
+}
+]

@@ -1,0 +1,106 @@
+[{
+  "id": 1,
+  "category": "Dier",
+  "word": "bij"
+}, {
+  "id": 2,
+  "category": "Dier",
+  "word": "hond"
+}, {
+  "id": 3,
+  "category": "Dier",
+  "word": "kil"
+}, {
+  "id": 4,
+  "category": "Dier",
+  "word": "lam"
+}, {
+  "id": 5,
+  "category": "Dier",
+  "word": "krokodil"
+}, {
+  "id": 6,
+  "category": "Kleren",
+  "word": "schoen"
+}, {
+  "id": 7,
+  "category": "Kleren",
+  "word": "jasje"
+}, {
+  "id": 8,
+  "category": "Kleren",
+  "word": "shirt"
+}, {
+  "id": 9,
+  "category": "Kleren",
+  "word": "sok"
+}, {
+  "id": 10,
+  "category": "Kleren",
+  "word": "binden"
+}, {
+  "id": 11,
+  "category": "Voedsel",
+  "word": "appels"
+}, {
+  "id": 12,
+  "category": "Voedsel",
+  "word": "vlees"
+}, {
+  "id": 13,
+  "category": "Voedsel",
+  "word": "aardappelen"
+}, {
+  "id": 14,
+  "category": "Voedsel",
+  "word": "snoepjes"
+}, {
+  "id": 15,
+  "category": "Voedsel",
+  "word": "tiramisu"
+}, {
+  "id": 16,
+  "category": "Computer",
+  "word": "toetsenbord"
+}, {
+  "id": 17,
+  "category": "Vervoer",
+  "word": "auto"
+}, {
+  "id": 18,
+  "category": "Werk",
+  "word": "computer wetenschapper"
+}, {
+  "id": 19,
+  "category": "Sport",
+  "word": "bergbeklimmen"
+}, {
+  "id": 20,
+  "category": "Lichaam",
+  "word": "mond"
+}, {
+  "id": 21,
+  "category": "Keuken",
+  "word": "oven"
+}, {
+  "id": 22,
+  "category": "Tuin",
+  "word": "grasveld"
+}, {
+  "id": 23,
+  "category": "Gebouw",
+  "word": "kerk"
+}, {
+  "id": 24,
+  "category": "Muziek",
+  "word": "gitaar"
+}, {
+  "id": 25,
+  "category": "Land",
+  "word": "belgië"
+}, {
+  "id": 26,
+  "category": "Meubilair",
+  "word": "kledingkast"
+}
+]
