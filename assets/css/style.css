@@ -387,7 +387,7 @@ body footer {
   color: white;
   text-align: center;
   position: fixed;
-  bottom: 1rem;
+  bottom: 0.5rem;
   width: 100%;
 }
 body footer a {
