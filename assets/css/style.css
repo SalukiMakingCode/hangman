@@ -343,6 +343,7 @@ body main#playground #part2 article {
   margin: 0 auto;
   margin-top: 2rem;
   width: 90%;
+  margin-bottom: 10rem;
   border-radius: 5%;
   background-color: #38474E90;
 }
