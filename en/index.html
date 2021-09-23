@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <link href="../assets/css/style.css" rel="stylesheet"/>
-    <!--  <script src="../assets/js/navigation.js"></script> -->
     <meta charset="UTF-8">
     <meta name="description" content="Play Hangman in English and discover the translation of the word to guess in several languages. Develop your vocabulary while having fun."/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
@@ -22,50 +21,50 @@
     <h1>The hangman <span id="h1Expand0">challenge</span> <span id="h1Expand1">in english</span> <span id="h1Expand2">- expand your vocabulary</span></h1>
     <ul>
         <li id="changeLanguage">Change Language : </li>
-        <li><img src="../assets/img/mini_fr.jpg" alt="Play in french"></li>
-        <li><img src="../assets/img/mini_nl.jpg" alt="Play in dutch"></li>
-        <li><img src="../assets/img/mini_de.jpg" alt="Play in german"></li>
-        <li><img src="../assets/img/mini_it.jpg" alt="Play in italian"></li>
+        <li><a href="../fr/"><img src="../assets/img/mini_fr.jpg" alt="Play in french"></a></li>
+        <li><a href="../nl/"><img src="../assets/img/mini_nl.jpg" alt="Play in dutch"></a></li>
+        <li><a href="../de/"><img src="../assets/img/mini_de.jpg" alt="Play in german"></a></li>
+        <li><a href="../it/"><img src="../assets/img/mini_it.jpg" alt="Play in italian"></a></li>
     </ul>
 </header>
 
 <main id="playground">
     <div id="part1">
-        <h2>Category : </h2>
-        <h3>_ _ _ _ _ _ _ _ &nbsp; _ _ _ _ _ _ _</h3>
+        <h2>Category : <span id="category"></span></h2>
+        <h3 id="wordToGuest">_ _ _ _ _ _ _ _ &nbsp; _ _ _ _ _ _ _</h3>
         <figure>
-            <img src="../assets/img/hang.png" alt="You have 7 chances left"/>
+            <img src="../assets/img/0.png" alt="You have 7 chances left" id="hangman" data-status="0"/>
         </figure>
     </div>
 
     <div id="part2">
         <div id="keyboard">
-            <div id="a" class="letter">A</div>
-            <div id="b" class="letter">B</div>
-            <div id="c" class="letter">C</div>
-            <div id="d" class="letter">D</div>
-            <div id="e" class="letter">E</div>
-            <div id="f" class="letter">F</div>
-            <div id="g" class="letter">G</div>
-            <div id="h" class="letter">H</div>
-            <div id="i" class="letter">I</div>
-            <div id="j" class="letter">J</div>
-            <div id="k" class="letter">K</div>
-            <div id="l" class="letter">L</div>
-            <div id="m" class="letter">M</div>
-            <div id="n" class="letter">N</div>
-            <div id="o" class="letter">O</div>
-            <div id="p" class="letter">P</div>
-            <div id="q" class="letter">Q</div>
-            <div id="r" class="letter">R</div>
-            <div id="s" class="letter">S</div>
-            <div id="t" class="letter">T</div>
-            <div id="u" class="letter">U</div>
-            <div id="v" class="letter">V</div>
-            <div id="w" class="letter">W</div>
-            <div id="x" class="letter">X</div>
-            <div id="y" class="letter">Y</div>
-            <div id="z" class="letter">Z</div>
+            <div id="a" class="letter" data-status="0">A</div>
+            <div id="b" class="letter" data-status="0">B</div>
+            <div id="c" class="letter" data-status="0">C</div>
+            <div id="d" class="letter" data-status="0">D</div>
+            <div id="e" class="letter" data-status="0">E</div>
+            <div id="f" class="letter" data-status="0">F</div>
+            <div id="g" class="letter" data-status="0">G</div>
+            <div id="h" class="letter" data-status="0">H</div>
+            <div id="i" class="letter" data-status="0">I</div>
+            <div id="j" class="letter" data-status="0">J</div>
+            <div id="k" class="letter" data-status="0">K</div>
+            <div id="l" class="letter" data-status="0">L</div>
+            <div id="m" class="letter" data-status="0">M</div>
+            <div id="n" class="letter" data-status="0">N</div>
+            <div id="o" class="letter" data-status="0">O</div>
+            <div id="p" class="letter" data-status="0">P</div>
+            <div id="q" class="letter" data-status="0">Q</div>
+            <div id="r" class="letter" data-status="0">R</div>
+            <div id="s" class="letter" data-status="0">S</div>
+            <div id="t" class="letter" data-status="0">T</div>
+            <div id="u" class="letter" data-status="0">U</div>
+            <div id="v" class="letter" data-status="0">V</div>
+            <div id="w" class="letter" data-status="0">W</div>
+            <div id="x" class="letter" data-status="0">X</div>
+            <div id="y" class="letter" data-status="0">Y</div>
+            <div id="z" class="letter" data-status="0">Z</div>
         </div>
         <article>
             <h3>How to learn English by playing this game ?</h3>
@@ -88,5 +87,8 @@
 <footer>
     <h3>Created by David Van Goidtsnoven. <a href="https://github.com/SalukiMakingCode" target="_blank" rel="noreferrer noopener">Visit my github</a></h3>
 </footer>
+
 </body>
+<script src="../assets/js/english.js"></script>
+<script src="../assets/js/hangman.js"></script>
 </html>
