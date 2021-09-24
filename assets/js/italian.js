@@ -102,5 +102,25 @@ const wordListIt = [{
   "id": 26,
   "category": "Mobili",
   "word": "armadio"
+}, {
+  "id": 27,
+  "category": "Animale",
+  "word": "calamaro"
+}, {
+  "id": 28,
+  "category": "Animale",
+  "word": "anatra"
+}, {
+  "id": 29,
+  "category": "Animale",
+  "word": "scoiattolo"
+}, {
+  "id": 30,
+  "category": "Animale",
+  "word": "riccio"
+}, {
+  "id": 31,
+  "category": "Animale",
+  "word": "zanzara"
 }
 ]

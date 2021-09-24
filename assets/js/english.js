@@ -102,5 +102,25 @@ const wordListEn = [{
   "id": 26,
   "category": "Furniture",
   "word": "wardrobe"
+}, {
+  "id": 27,
+  "category": "Animal",
+  "word": "squid"
+}, {
+  "id": 28,
+  "category": "Animal",
+  "word": "duck"
+}, {
+  "id": 29,
+  "category": "Animal",
+  "word": "squirrel"
+}, {
+  "id": 30,
+  "category": "Animal",
+  "word": "hedgehog"
+}, {
+  "id": 31,
+  "category": "Animal",
+  "word": "mosquito"
 }
 ]

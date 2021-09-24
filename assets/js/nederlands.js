@@ -102,5 +102,25 @@ const wordListNl = [{
   "id": 26,
   "category": "Meubilair",
   "word": "kledingkast"
+}, {
+  "id": 27,
+  "category": "Dier",
+  "word": "inktvis"
+}, {
+  "id": 28,
+  "category": "Dier",
+  "word": "eend"
+}, {
+  "id": 29,
+  "category": "Dier",
+  "word": "eekhoorn"
+}, {
+  "id": 30,
+  "category": "Dier",
+  "word": "egel"
+}, {
+  "id": 31,
+  "category": "Dier",
+  "word": "mug"
 }
 ]

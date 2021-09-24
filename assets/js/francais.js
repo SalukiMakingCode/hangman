@@ -102,5 +102,25 @@ const wordListFr = [{
   "id": 26,
   "category": "Meuble",
   "word": "garde-robe"
+}, {
+  "id": 27,
+  "category": "Animal",
+  "word": "calamar"
+}, {
+  "id": 28,
+  "category": "Animal",
+  "word": "canard"
+}, {
+  "id": 29,
+  "category": "Animal",
+  "word": "écureuil"
+}, {
+  "id": 30,
+  "category": "Animal",
+  "word": "hérisson"
+}, {
+  "id": 31,
+  "category": "Animal",
+  "word": "moustique"
 }
 ]

@@ -102,5 +102,25 @@ const wordListDe = [{
   "id": 26,
   "category": "Möbel",
   "word": "schrank"
+}, {
+  "id": 27,
+  "category": "Tier",
+  "word": "tintenfisch"
+}, {
+  "id": 28,
+  "category": "Tier",
+  "word": "ente"
+}, {
+  "id": 29,
+  "category": "Tier",
+  "word": "eichhörnchen"
+}, {
+  "id": 30,
+  "category": "Tier",
+  "word": "igel"
+}, {
+  "id": 31,
+  "category": "Tier",
+  "word": "Stechmücke"
 }
 ]
