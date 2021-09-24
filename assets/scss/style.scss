@@ -51,7 +51,7 @@ body {
       }
     }
   }
-  & header#playground{
+  & header.playground{
     height:2rem;
     background-color: #222222;
     width:100%;
@@ -109,7 +109,7 @@ body {
       }
     }
   }
-  & main#playground{
+  & main.playground{
     padding-top:3rem;
     color:white;
     display:flex;
