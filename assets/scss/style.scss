@@ -6,7 +6,7 @@ h1, h2, h3, h4, ul, li, p { font-family: $fontFamH; }
 
 body {
   background-image: url("../img/background.jpg");
-    & header#homepage{
+    & header.homepage{
       margin:0 auto;
       @media screen and (max-width:600px)  {
         padding-top:1rem;
@@ -24,7 +24,7 @@ body {
         font-size: 2rem;
       }
     }
-  & main#homepage{
+  & main.homepage{
     @media screen and (max-width:600px)  {
     padding-top:1rem;
     }
