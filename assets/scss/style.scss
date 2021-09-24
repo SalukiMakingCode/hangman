@@ -319,3 +319,128 @@ body {
   }
 
 }
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 4rem;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  & #modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 1rem;
+    border: 10px solid #888;
+    width: 80%;
+    & p#win{
+      display: none;
+      text-align: center;
+      font-size: 2.5rem;
+    }
+    & p#lose{
+      display: none;
+      text-align: center;
+      font-size: 2.5rem;
+    }
+    & p#theWord{
+      text-align: center;
+      font-size: 1.8rem;
+      padding-top: 1rem;
+    }
+    & p#titleAllWord{
+      text-align: center;
+      font-size: 1.5rem;
+      padding-top: 4rem;
+    }
+    & #containerFlex {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-around;
+      padding-top: 2.5rem;
+      color:white;
+      font-size:1.5rem;
+      text-align: center;
+      & #flagEn {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-content: center;
+        width: 12rem;
+        height: 7.5rem;
+        background-image: url("../img/en.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+      }
+      & #flagFr {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-content: center;
+        width: 12rem;
+        height: 7.5rem;
+        background-image: url("../img/fr.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+      }
+      & #flagNl {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-content: center;
+        width: 12rem;
+        height: 7.5rem;
+        background-image: url("../img/nl.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+      }
+      & #flagDe {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-content: center;
+        width: 12rem;
+        height: 7.5rem;
+        background-image: url("../img/de.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+      }
+      & #flagIt {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-content: center;
+        width: 12rem;
+        height: 7.5rem;
+        background-image: url("../img/it.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+      }
+      & .wordAfterGame {
+        background-color: #222222C0;
+        border-radius: 50%;
+        padding:0.4rem;
+      }
+    }
+    & .putTheButton {
+      text-align: center;
+      margin-top: 4rem;
+      margin-bottom: 4rem;
+      & #replay {
+        text-decoration: none;
+        color:black;
+        font-size: 2rem;
+        padding: 1.5rem;
+        border-radius: 50%;
+        background-color: #CCCCCC;
+        border:solid 1px black;
+      }
+    }
+  }
+}
+

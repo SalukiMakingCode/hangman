@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <link href="../assets/css/style.css" rel="stylesheet"/>
     <meta charset="UTF-8">
-    <meta name="description" content="Play Hangman in English and discover the translation of the word to guess in several languages. Develop your vocabulary while having fun."/>
+    <meta name="description" content="Gioca all'Impiccato in italiano e scopri la traduzione della parola da trovare in diverse lingue. Sviluppa il tuo vocabolario divertendoti."/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-41NJ4WFM7R"></script>
@@ -14,26 +14,26 @@
 
         gtag('config', 'G-41NJ4WFM7R');
     </script>
-    <title>Hangman Challenge in English</title>
+    <title>La sfida dell'impiccato in italiano</title>
 </head>
 <body>
 <header class="playground">
-    <h1>The hangman <span id="h1Expand0">challenge</span> <span id="h1Expand1">in english</span> <span id="h1Expand2">- expand your vocabulary</span></h1>
+    <h1>l'impiccato <span id="h1Expand0">online</span> <span id="h1Expand1">in italiano</span> <span id="h1Expand2">- sviluppare il tuo vocabolario</span></h1>
     <ul>
-        <li id="changeLanguage">Change Language : </li>
-        <li><a href="../fr/"><img src="../assets/img/mini_fr.jpg" alt="Play in french"></a></li>
-        <li><a href="../nl/"><img src="../assets/img/mini_nl.jpg" alt="Play in dutch"></a></li>
-        <li><a href="../de/"><img src="../assets/img/mini_de.jpg" alt="Play in german"></a></li>
-        <li><a href="../it/"><img src="../assets/img/mini_it.jpg" alt="Play in italian"></a></li>
+        <li id="changeLanguage">Scegliere la lingua : </li>
+        <li><a href="../en/"><img src="../assets/img/mini_en.jpg" alt="Giochi in inglese"></a></li>
+        <li><a href="../nl/"><img src="../assets/img/mini_nl.jpg" alt="Giochi in olandese"></a></li>
+        <li><a href="../de/"><img src="../assets/img/mini_de.jpg" alt="Giochi in tedesco"></a></li>
+        <li><a href="../fr/"><img src="../assets/img/mini_fr.jpg" alt="Giochi in francese"></a></li>
     </ul>
 </header>
 
 <main class="playground">
     <div id="part1">
-        <h2>Category : <span id="category"></span></h2>
-        <h3 id="wordToGuest">Hangman Challenge : play and learn english</h3>
+        <h2>Categoria: <span id="category"></span></h2>
+        <h3 id="wordToGuest">L'impiccato impara l'italiano giocando</h3>
         <figure>
-            <img src="../assets/img/0.png" alt="You have 7 chances left" id="hangman" data-status="0" data-lang="en"/>
+            <img src="../assets/img/0.png" alt="Ti rimangono 7 tentativi" id="hangman" data-status="0" data-lang="it"/>
         </figure>
     </div>
 
@@ -67,33 +67,32 @@
             <div id="z" class="letter" data-status="0">Z</div>
         </div>
         <article>
-            <h3>How to learn English by playing this game ?</h3>
-            <p>This site will allow you to work on your vocabulary. It is not about learning grammar or conjugation. The
-                objective of this game is to allow you to familiarize yourself with the vocabulary of a particular language
-                and then discover the correspondence of this word in other languages.
+            <h3>Come imparare il francese con questo gioco ?</h3>
+            <p>Questo sito ti permetterà di lavorare sul tuo vocabolario. Non si tratta di imparare la grammatica o la coniugazione. Lo scopo di questo
+                di questo gioco è di permettervi di familiarizzare con il vocabolario di una particolare lingua e poi di scoprire la corrispondenza di questa parola in altre lingue.
+                la parola in altre lingue.
             </p>
             <p>
-                The context given by the category will guide you. The search for correspondence between the letters displayed
-                and the possible words in the language of your choice will help you to develop a reflection that makes sense
-                in that language.
+                Il contesto dato dalla categoria vi guiderà. La ricerca di corrispondenza tra le lettere visualizzate e le possibili parole nella lingua di tua scelta può solo aiutarti a sviluppare un processo di pensiero che abbia senso in quella lingua.
+                e le parole possibili nella lingua di vostra scelta vi aiuteranno a sviluppare una riflessione che abbia senso in questa lingua.
             </p>
             <p>
-                Have fun and enjoy the discovery.
+                Divertiti e goditi la scoperta.
             </p>
         </article>
     </div>
 </main>
 
 <footer>
-    <h3>Created by David Van Goidtsnoven. <a href="https://github.com/SalukiMakingCode" target="_blank" rel="noreferrer noopener">Visit my github</a></h3>
+    <h3>Creato da David Van Goidtsnoven. <a href="https://github.com/SalukiMakingCode" target="_blank" rel="noreferrer noopener">Visit my github</a></h3>
 </footer>
 
 <div id="myModal" class="modal">
     <div id="modal-content">
-        <p id="win">Congratulations : You Win !!!</p>
-        <p id="lose">Oh no : You Lose !!!</p>
-        <p id="theWord">The word was : <span id="wordAfterGame"> </span></p>
-        <p id="titleAllWord">by the way, how to say this word in other languages ?</p>
+        <p id="win">Congratulazioni : Avete vinto!!!</p>
+        <p id="lose">Oh no : hai perso!!!</p>
+        <p id="theWord">La parola era : <span id="wordAfterGame"> </span></p>
+        <p id="titleAllWord">a proposito, come si dice questa parola in altre lingue?</p>
         <div id="containerFlex">
             <div id="flagEn"><div id="wordAfterGameEn" class="wordAfterGame"></div></div>
             <div id="flagFr"><div id="wordAfterGameFr" class="wordAfterGame"></div></div>
@@ -101,7 +100,7 @@
             <div id="flagDe"><div id="wordAfterGameDe" class="wordAfterGame"></div></div>
             <div id="flagNl"><div id="wordAfterGameNl" class="wordAfterGame"></div></div>
         </div>
-        <div class="putTheButton"><a href="index.html" id="replay">Play Again</a></div>
+        <div class="putTheButton"><a href="index.html" id="replay">Gioca di nuovo</a></div>
     </div>
 </div>
 <script src="../assets/js/english.js"></script>

@@ -1,4 +1,4 @@
-const wordList = [{
+const wordListFr = [{
   "id": 1,
   "category": "Animal",
   "word": "abeille"

@@ -6,9 +6,18 @@
     let i=0;
     let youFind=0;
     let statutHangman=0;
+    let chanceLeft=7;
     let numberLetterToGuest=0;
-    let wordIdDraw= Math.floor(Math.random()*wordList.length);
-    let arrayWordToGuest=wordList[wordIdDraw]["word"].split('');
+    let listToConsult="";
+    data=document.querySelector("#hangman");
+    let lang=data.dataset.lang;
+    if (lang==="en") listToConsult="wordListEn";
+    if (lang==="fr") listToConsult="wordListFr";
+    if (lang==="it") listToConsult="wordListIt";
+    if (lang==="de") listToConsult="wordListDe";
+    if (lang==="nl") listToConsult="wordListNl";
+    let wordIdDraw = Math.floor(Math.random() * eval(listToConsult).length);
+    let arrayWordToGuest = eval(listToConsult)[wordIdDraw]["word"].split('');
     // create function to check letter after an user had choose a new one
     function checkLetterChosen(letter) {
         i=0; youFind=0;
@@ -22,12 +31,78 @@
             document.querySelector("#"+letter).dataset.status=1;
             i++;
         }
+        if (letter==="a") {
+            i = 0;
+            for (elem of arrayWordToGuest) {
+                if ("à" === arrayWordToGuest[i] || "â" === arrayWordToGuest[i] || "ä" === arrayWordToGuest[i] || "á" === arrayWordToGuest[i]) {
+                    youFind++;
+                    numberLetterToGuest--;
+                    document.getElementById("letter" + i).textContent = arrayWordToGuest[i];
+                    document.getElementById(letter).className = "letterPickGood";
+                }
+                document.querySelector("#" + letter).dataset.status = 1;
+                i++;
+            }
+        }
+        if (letter==="e") {
+            i = 0;
+            for (elem of arrayWordToGuest) {
+                if ("é" === arrayWordToGuest[i] || "è" === arrayWordToGuest[i] || "ê" === arrayWordToGuest[i] || "ë" === arrayWordToGuest[i]) {
+                    youFind++;
+                    numberLetterToGuest--;
+                    document.getElementById("letter" + i).textContent = arrayWordToGuest[i];
+                    document.getElementById(letter).className = "letterPickGood";
+                }
+                document.querySelector("#" + letter).dataset.status = 1;
+                i++;
+            }
+        }
+        if (letter==="i") {
+            i = 0;
+            for (elem of arrayWordToGuest) {
+                if ("í" === arrayWordToGuest[i] || "ì" === arrayWordToGuest[i] || "î" === arrayWordToGuest[i] || "ï" === arrayWordToGuest[i]) {
+                    youFind++;
+                    numberLetterToGuest--;
+                    document.getElementById("letter" + i).textContent = arrayWordToGuest[i];
+                    document.getElementById(letter).className = "letterPickGood";
+                }
+                document.querySelector("#" + letter).dataset.status = 1;
+                i++;
+            }
+        }
+        if (letter==="o") {
+            i = 0;
+            for (elem of arrayWordToGuest) {
+                if ("ó" === arrayWordToGuest[i] || "ò" === arrayWordToGuest[i] || "ô" === arrayWordToGuest[i] || "ö" === arrayWordToGuest[i]) {
+                    youFind++;
+                    numberLetterToGuest--;
+                    document.getElementById("letter" + i).textContent = arrayWordToGuest[i];
+                    document.getElementById(letter).className = "letterPickGood";
+                }
+                document.querySelector("#" + letter).dataset.status = 1;
+                i++;
+            }
+        }
+        if (letter==="u") {
+            i = 0;
+            for (elem of arrayWordToGuest) {
+                if ("ú" === arrayWordToGuest[i] || "ù" === arrayWordToGuest[i] || "û" === arrayWordToGuest[i] || "ü" === arrayWordToGuest[i]) {
+                    youFind++;
+                    numberLetterToGuest--;
+                    document.getElementById("letter" + i).textContent = arrayWordToGuest[i];
+                    document.getElementById(letter).className = "letterPickGood";
+                }
+                document.querySelector("#" + letter).dataset.status = 1;
+                i++;
+            }
+        }
         if (youFind===0) {
             document.getElementById(letter).className="letterPickBad";
             data=document.querySelector("#hangman");
             statutHangman=data.dataset.status;
-            statutHangman++;
+            statutHangman++; chanceLeft--;
             document.getElementById("hangman").src="../assets/img/"+statutHangman+".png";
+            document.getElementById("hangman").alt="You have "+chanceLeft+" chances left";
             document.querySelector("#hangman").dataset.status=statutHangman;
             if (statutHangman===7) {
              endGame("lose");
@@ -40,12 +115,20 @@
     //function end of game
     function endGame (statut) {
         setTimeout(function(){
-        if (statut==="lose") alert("You lose !");
-        if (statut==="win") alert ("you win");
+            document.getElementById("myModal").style.display = "block";
+            if (statut==="win") document.getElementById("win").style.display = "block";
+            if (statut==="lose") document.getElementById("lose").style.display = "block";
+            document.getElementById("wordAfterGame").innerHTML=eval(listToConsult)[wordIdDraw]["word"];
+            document.getElementById("wordAfterGameEn").innerHTML=wordListEn[wordIdDraw]["word"];
+            document.getElementById("wordAfterGameFr").innerHTML=wordListFr[wordIdDraw]["word"];
+            document.getElementById("wordAfterGameIt").innerHTML=wordListIt[wordIdDraw]["word"];
+            document.getElementById("wordAfterGameNl").innerHTML=wordListNl[wordIdDraw]["word"];
+            document.getElementById("wordAfterGameDe").innerHTML=wordListDe[wordIdDraw]["word"];
+
         }, 500);
     }
     // set first screen
-    document.getElementById("category").innerHTML=wordList[wordIdDraw]["category"];
+    document.getElementById("category").innerHTML=eval(listToConsult)[wordIdDraw]["category"];
     for (elem of arrayWordToGuest) {
         if (elem===" ") wordToGuestFirstSetHtml=wordToGuestFirstSetHtml+" &nbsp; ";
         else if (elem==="-") wordToGuestFirstSetHtml=wordToGuestFirstSetHtml+" - ";

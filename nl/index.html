@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <link href="../assets/css/style.css" rel="stylesheet"/>
     <meta charset="UTF-8">
-    <meta name="description" content="Play Hangman in English and discover the translation of the word to guess in several languages. Develop your vocabulary while having fun."/>
+    <meta name="description" content="Speel Hangman in het Nederlands en ontdek de vertaling van het te vinden woord in verschillende talen. Ontwikkel je woordenschat terwijl je plezier hebt."/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-41NJ4WFM7R"></script>
@@ -14,26 +14,26 @@
 
         gtag('config', 'G-41NJ4WFM7R');
     </script>
-    <title>Hangman Challenge in English</title>
+    <title>De Nederlandse Hangman Uitdaging</title>
 </head>
 <body>
 <header class="playground">
-    <h1>The hangman <span id="h1Expand0">challenge</span> <span id="h1Expand1">in english</span> <span id="h1Expand2">- expand your vocabulary</span></h1>
+    <h1>De hangman <span id="h1Expand0">online</span> <span id="h1Expand1">in het Nederlands</span> <span id="h1Expand2">- ontwikkel je woordenschat</span></h1>
     <ul>
-        <li id="changeLanguage">Change Language : </li>
-        <li><a href="../fr/"><img src="../assets/img/mini_fr.jpg" alt="Play in french"></a></li>
-        <li><a href="../nl/"><img src="../assets/img/mini_nl.jpg" alt="Play in dutch"></a></li>
-        <li><a href="../de/"><img src="../assets/img/mini_de.jpg" alt="Play in german"></a></li>
-        <li><a href="../it/"><img src="../assets/img/mini_it.jpg" alt="Play in italian"></a></li>
+        <li id="changeLanguage">Andere talen : </li>
+        <li><a href="../en/"><img src="../assets/img/mini_en.jpg" alt="In het Engels spelen"></a></li>
+        <li><a href="../fr/"><img src="../assets/img/mini_fr.jpg" alt="In het Frans spelen"></a></li>
+        <li><a href="../de/"><img src="../assets/img/mini_de.jpg" alt="In het Duits spelen"></a></li>
+        <li><a href="../it/"><img src="../assets/img/mini_it.jpg" alt="In het Italiaans spelen"></a></li>
     </ul>
 </header>
 
 <main class="playground">
     <div id="part1">
-        <h2>Category : <span id="category"></span></h2>
-        <h3 id="wordToGuest">Hangman Challenge : play and learn english</h3>
+        <h2>Categorie : <span id="category"></span></h2>
+        <h3 id="wordToGuest">De hangman online : leert Nederlands door te spelen</h3>
         <figure>
-            <img src="../assets/img/0.png" alt="You have 7 chances left" id="hangman" data-status="0" data-lang="en"/>
+            <img src="../assets/img/0.png" alt="Je hebt nog 7 pogingen over" id="hangman" data-status="0" data-lang="nl"/>
         </figure>
     </div>
 
@@ -67,33 +67,33 @@
             <div id="z" class="letter" data-status="0">Z</div>
         </div>
         <article>
-            <h3>How to learn English by playing this game ?</h3>
-            <p>This site will allow you to work on your vocabulary. It is not about learning grammar or conjugation. The
-                objective of this game is to allow you to familiarize yourself with the vocabulary of a particular language
-                and then discover the correspondence of this word in other languages.
+            <h3>Hoe kun je Nederlands leren door dit spel te spelen ?</h3>
+            <p>Deze site zal je toelaten aan je woordenschat te werken. Het gaat niet om het leren van grammatica of
+                vervoegingen. Het doel van deze van dit spel is om u vertrouwd te maken met de woordenschat van een bepaalde
+                taal en vervolgens de overeenkomst van dit woord in andere talen te ontdekken.
             </p>
             <p>
-                The context given by the category will guide you. The search for correspondence between the letters displayed
-                and the possible words in the language of your choice will help you to develop a reflection that makes sense
-                in that language.
+                De context die door de categorie wordt gegeven zal u leiden. Het zoeken naar overeenkomsten tussen de weergegeven letters en de mogelijke woorden in de taal van uw keuze zal u alleen maar helpen uw vaardigheden te ontwikkelen.
+                letters en mogelijke woorden in de taal van je keuze zal je alleen maar helpen bij het ontwikkelen
+                een reflectie die zinvol is in die taal.
             </p>
             <p>
-                Have fun and enjoy the discovery.
+                Veel plezier en geniet van de ontdekking.
             </p>
         </article>
     </div>
 </main>
 
 <footer>
-    <h3>Created by David Van Goidtsnoven. <a href="https://github.com/SalukiMakingCode" target="_blank" rel="noreferrer noopener">Visit my github</a></h3>
+    <h3>Gemaakt door David Van Goidtsnoven. <a href="https://github.com/SalukiMakingCode" target="_blank" rel="noreferrer noopener">Visit my github</a></h3>
 </footer>
 
 <div id="myModal" class="modal">
     <div id="modal-content">
-        <p id="win">Congratulations : You Win !!!</p>
-        <p id="lose">Oh no : You Lose !!!</p>
-        <p id="theWord">The word was : <span id="wordAfterGame"> </span></p>
-        <p id="titleAllWord">by the way, how to say this word in other languages ?</p>
+        <p id="win">Gefeliciteerd: Je hebt gewonnen!!!</p>
+        <p id="lose">Oh nee: Je hebt verloren!!!</p>
+        <p id="theWord">Het woord was: <span id="wordAfterGame"> </span></p>
+        <p id="titleAllWord">tussen haakjes, hoe zeg je dit woord in andere talen?</p>
         <div id="containerFlex">
             <div id="flagEn"><div id="wordAfterGameEn" class="wordAfterGame"></div></div>
             <div id="flagFr"><div id="wordAfterGameFr" class="wordAfterGame"></div></div>
@@ -101,7 +101,7 @@
             <div id="flagDe"><div id="wordAfterGameDe" class="wordAfterGame"></div></div>
             <div id="flagNl"><div id="wordAfterGameNl" class="wordAfterGame"></div></div>
         </div>
-        <div class="putTheButton"><a href="index.html" id="replay">Play Again</a></div>
+        <div class="putTheButton"><a href="index.html" id="replay">Speel opnieuw</a></div>
     </div>
 </div>
 <script src="../assets/js/english.js"></script>
