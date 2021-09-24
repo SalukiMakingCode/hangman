@@ -162,5 +162,33 @@ const wordListEn = [{
   "id": 41,
   "category": "Food",
   "word": "parmesan croquette"
+}, {
+  "id": 42,
+  "category": "Computer",
+  "word": "processor"
+}, {
+  "id": 43,
+  "category": "Computer",
+  "word": "software"
+}, {
+  "id": 44,
+  "category": "Computer",
+  "word": "printer"
+}, {
+  "id": 45,
+  "category": "Computer",
+  "word": "infographics"
+}, {
+  "id": 46,
+  "category": "Computer",
+  "word": "emulator"
+}, {
+  "id": 47,
+  "category": "Computer",
+  "word": "computer network"
+}, {
+  "id": 48,
+  "category": "Computer",
+  "word": "virtualization"
 }
 ]

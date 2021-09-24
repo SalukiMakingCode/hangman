@@ -162,5 +162,33 @@ const wordListFr = [{
   "id": 41,
   "category": "Nourriture",
   "word": "croquette au parmesan"
+}, {
+  "id": 42,
+  "category": "Ordinateur",
+  "word": "processeur"
+}, {
+  "id": 43,
+  "category": "Ordinateur",
+  "word": "logiciel"
+}, {
+  "id": 44,
+  "category": "Ordinateur",
+  "word": "imprimante"
+}, {
+  "id": 45,
+  "category": "Ordinateur",
+  "word": "infographie"
+}, {
+  "id": 46,
+  "category": "Ordinateur",
+  "word": "émulateur"
+}, {
+  "id": 47,
+  "category": "Ordinateur",
+  "word": "réseau informatique"
+}, {
+  "id": 48,
+  "category": "Ordinateur",
+  "word": "virtualisation"
 }
 ]

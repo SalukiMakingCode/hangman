@@ -162,5 +162,33 @@ const wordListDe = [{
   "id": 41,
   "category": "Lebensmittel",
   "word": "Parmesankrokette"
+}, {
+  "id": 42,
+  "category": "Rechner",
+  "word": "prozessor"
+}, {
+  "id": 43,
+  "category": "Rechner",
+  "word": "software"
+}, {
+  "id": 44,
+  "category": "Rechner",
+  "word": "drucker"
+}, {
+  "id": 45,
+  "category": "Rechner",
+  "word": "Infografiken"
+}, {
+  "id": 46,
+  "category": "Rechner",
+  "word": "emulator"
+}, {
+  "id": 47,
+  "category": "Rechner",
+  "word": "Computernetzwerk"
+}, {
+  "id": 48,
+  "category": "Rechner",
+  "word": "Virtualisierung"
 }
 ]

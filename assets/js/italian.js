@@ -162,5 +162,33 @@ const wordListIt = [{
   "id": 41,
   "category": "Cibo",
   "word": "crocchetta di parmigiano"
+}, {
+  "id": 42,
+  "category": "Computer",
+  "word": "processore"
+}, {
+  "id": 43,
+  "category": "Computer",
+  "word": "software"
+}, {
+  "id": 44,
+  "category": "Computer",
+  "word": "stampante"
+}, {
+  "id": 45,
+  "category": "Computer",
+  "word": "infografica"
+}, {
+  "id": 46,
+  "category": "Computer",
+  "word": "emulatore"
+}, {
+  "id": 47,
+  "category": "Computer",
+  "word": "rete di computer"
+}, {
+  "id": 48,
+  "category": "Computer",
+  "word": "virtualizzazione"
 }
 ]
