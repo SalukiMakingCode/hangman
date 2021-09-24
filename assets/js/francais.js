@@ -122,5 +122,45 @@ const wordListFr = [{
   "id": 31,
   "category": "Animal",
   "word": "moustique"
+}, {
+  "id": 32,
+  "category": "Vêtements",
+  "word": "slip"
+}, {
+  "id": 33,
+  "category": "Vêtements",
+  "word": "pull"
+}, {
+  "id": 34,
+  "category": "Vêtements",
+  "word": "robe"
+}, {
+  "id": 35,
+  "category": "Vêtements",
+  "word": "jupe"
+}, {
+  "id": 36,
+  "category": "Vêtements",
+  "word": "casquette"
+}, {
+  "id": 37,
+  "category": "Nourriture",
+  "word": "poires"
+}, {
+  "id": 38,
+  "category": "Nourriture",
+  "word": "spaghetti bolognaise"
+}, {
+  "id": 39,
+  "category": "Nourriture",
+  "word": "steak frites"
+}, {
+  "id": 40,
+  "category": "Nourriture",
+  "word": "brochette de poulet"
+}, {
+  "id": 41,
+  "category": "Nourriture",
+  "word": "croquette au parmesan"
 }
 ]

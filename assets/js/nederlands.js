@@ -122,5 +122,45 @@ const wordListNl = [{
   "id": 31,
   "category": "Dier",
   "word": "mug"
+}, {
+  "id": 32,
+  "category": "Kleren",
+  "word": "slip"
+}, {
+  "id": 33,
+  "category": "Kleren",
+  "word": "jumper"
+}, {
+  "id": 34,
+  "category": "Kleren",
+  "word": "jurk"
+}, {
+  "id": 35,
+  "category": "Kleren",
+  "word": "rok"
+}, {
+  "id": 36,
+  "category": "Kleren",
+  "word": "pet"
+}, {
+  "id": 37,
+  "category": "Voedsel",
+  "word": "peren"
+}, {
+  "id": 38,
+  "category": "Voedsel",
+  "word": "spaghetti bolognese"
+}, {
+  "id": 39,
+  "category": "Voedsel",
+  "word": "steak en frieten"
+}, {
+  "id": 40,
+  "category": "Voedsel",
+  "word": "kip brochette"
+}, {
+  "id": 41,
+  "category": "Voedsel",
+  "word": "parmezaanse kroket"
 }
 ]

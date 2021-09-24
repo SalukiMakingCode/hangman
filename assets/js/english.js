@@ -122,5 +122,45 @@ const wordListEn = [{
   "id": 31,
   "category": "Animal",
   "word": "mosquito"
+}, {
+  "id": 32,
+  "category": "Clothes",
+  "word": "slip"
+}, {
+  "id": 33,
+  "category": "Clothes",
+  "word": "pullover"
+}, {
+  "id": 34,
+  "category": "Clothes",
+  "word": "dress"
+}, {
+  "id": 35,
+  "category": "Clothes",
+  "word": "skirt"
+}, {
+  "id": 36,
+  "category": "Clothes",
+  "word": "cap"
+}, {
+  "id": 37,
+  "category": "Food",
+  "word": "pears"
+}, {
+  "id": 38,
+  "category": "Food",
+  "word": "spaghetti bolognese"
+}, {
+  "id": 39,
+  "category": "Food",
+  "word": "steak and chips"
+}, {
+  "id": 40,
+  "category": "Food",
+  "word": "chicken brochette"
+}, {
+  "id": 41,
+  "category": "Food",
+  "word": "parmesan croquette"
 }
 ]

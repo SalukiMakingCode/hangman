@@ -122,5 +122,45 @@ const wordListIt = [{
   "id": 31,
   "category": "Animale",
   "word": "zanzara"
+}, {
+  "id": 32,
+  "category": "Vestiti",
+  "word": "scivolo"
+}, {
+  "id": 33,
+  "category": "Vestiti",
+  "word": "ponticello"
+}, {
+  "id": 34,
+  "category": "Vestiti",
+  "word": "vestito"
+}, {
+  "id": 35,
+  "category": "Vestiti",
+  "word": "gonna"
+}, {
+  "id": 36,
+  "category": "Vestiti",
+  "word": "tappo"
+}, {
+  "id": 37,
+  "category": "Cibo",
+  "word": "pere"
+}, {
+  "id": 38,
+  "category": "Cibo",
+  "word": "spaghetti alla bolognese"
+}, {
+  "id": 39,
+  "category": "Cibo",
+  "word": "bistecca e patatine fritte"
+}, {
+  "id": 40,
+  "category": "Cibo",
+  "word": "brochette di pollo"
+}, {
+  "id": 41,
+  "category": "Cibo",
+  "word": "crocchetta di parmigiano"
 }
 ]

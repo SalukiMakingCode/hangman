@@ -122,5 +122,45 @@ const wordListDe = [{
   "id": 31,
   "category": "Tier",
   "word": "Stechmücke"
+}, {
+  "id": 32,
+  "category": "Kleider",
+  "word": "Schlupf"
+}, {
+  "id": 33,
+  "category": "Kleider",
+  "word": "Springerin"
+}, {
+  "id": 34,
+  "category": "Kleider",
+  "word": "Kleid"
+}, {
+  "id": 35,
+  "category": "Kleider",
+  "word": "Rock"
+}, {
+  "id": 36,
+  "category": "Kleider",
+  "word": "Kappe"
+}, {
+  "id": 37,
+  "category": "Lebensmittel",
+  "word": "Birnen"
+}, {
+  "id": 38,
+  "category": "Lebensmittel",
+  "word": "Spaghetti Bolognese"
+}, {
+  "id": 39,
+  "category": "Lebensmittel",
+  "word": "Steak und Pommes frites"
+}, {
+  "id": 40,
+  "category": "Lebensmittel",
+  "word": "Hähnchenspieb"
+}, {
+  "id": 41,
+  "category": "Lebensmittel",
+  "word": "Parmesankrokette"
 }
 ]
