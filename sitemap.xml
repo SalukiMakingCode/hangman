@@ -1,0 +1,32 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    <url>
+        <loc>https://salukimakingcode.github.io/hangman/</loc>
+        <lastmod>2021-09-24T14:21:22+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://salukimakingcode.github.io/hangman/en/</loc>
+        <lastmod>2021-09-24T14:21:22+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://salukimakingcode.github.io/hangman/fr/</loc>
+        <lastmod>2021-09-24T14:21:22+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://salukimakingcode.github.io/hangman/nl/</loc>
+        <lastmod>2021-09-24T14:21:22+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://salukimakingcode.github.io/hangman/de/</loc>
+        <lastmod>2021-09-24T14:21:22+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://salukimakingcode.github.io/hangman/it/</loc>
+        <lastmod>2021-09-24T14:21:22+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+</urlset>
