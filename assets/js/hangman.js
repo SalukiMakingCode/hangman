@@ -7,82 +7,27 @@
     let statutHangman=0;
     let chanceLeft=7;
     let numberLetterToGuest=0;
-    let lang=document.querySelector("#hangman").dataset.lang;
-    let langWordName="word" + lang[0].toUpperCase() + lang[1] ;
-    let langWordCategory="category" + lang[0].toUpperCase() + lang[1] ;
-    let wordIdDraw = Math.floor(Math.random() * WORDLIST.length);
-    let wordToGuest = WORDLIST[wordIdDraw][langWordName].split('');
+    const lang=document.querySelector("#hangman").dataset.lang;
+    const langWordName="word" + lang[0].toUpperCase() + lang[1] ;
+    const langWordCategory="category" + lang[0].toUpperCase() + lang[1] ;
+    const wordIdDraw = Math.floor(Math.random() * WORDLIST.length);
+    const wordToGuest = WORDLIST[wordIdDraw][langWordName];
     // create function to check letter after an user had choose a new one and check if the game is over
     function checkLetterChosen(letter) {
         i=0; youFind=0;
         for (elem of wordToGuest) {
-            if (letter===wordToGuest[i]) {
+            if (letter===wordToGuest[i] || (letter==="e" && ("é" === wordToGuest[i] || "è" === wordToGuest[i] ||
+               "ê" === wordToGuest[i] || "ë" === wordToGuest[i])) || (letter==="a" && ("à" === wordToGuest[i] || "â" === wordToGuest[i]
+                || "ä" === wordToGuest[i] || "á" === wordToGuest[i])) || (letter==="u" && ("ú" === wordToGuest[i] ||
+                "ù" === wordToGuest[i] || "û" === wordToGuest[i] || "ü" === wordToGuest[i])) || (letter==="i" &&
+                ("í" === wordToGuest[i] || "ì" === wordToGuest[i] || "î" === wordToGuest[i] || "ï" === wordToGuest[i])) ||
+                (letter==="o" && ("ó" === wordToGuest[i] || "ò" === wordToGuest[i] || "ô" === wordToGuest[i] || "ö" === wordToGuest[i]))) {
                 youFind++; numberLetterToGuest--;
-                document.getElementById("letter"+i).textContent=letter;
+                document.getElementById("letter"+i).textContent=wordToGuest[i];
                 document.getElementById(letter).className="letterPickGood";
             }
-            document.querySelector("#"+letter).dataset.status=1;
+            document.querySelector("#"+letter).dataset.status="1";
             i++;
-        }
-        if (letter==="a") {
-            i = 0;
-            for (elem of wordToGuest) {
-                if ("à" === wordToGuest[i] || "â" === wordToGuest[i] || "ä" === wordToGuest[i] || "á" === wordToGuest[i]) {
-                    youFind++;numberLetterToGuest--;
-                    document.getElementById("letter" + i).textContent = wordToGuest[i];
-                    document.getElementById(letter).className = "letterPickGood";
-                }
-                document.querySelector("#" + letter).dataset.status = 1;
-                i++;
-            }
-        }
-        if (letter==="e") {
-            i = 0;
-            for (elem of wordToGuest) {
-                if ("é" === wordToGuest[i] || "è" === wordToGuest[i] || "ê" === wordToGuest[i] || "ë" === wordToGuest[i]) {
-                    youFind++;numberLetterToGuest--;
-                    document.getElementById("letter" + i).textContent = wordToGuest[i];
-                    document.getElementById(letter).className = "letterPickGood";
-                }
-                document.querySelector("#" + letter).dataset.status = 1;
-                i++;
-            }
-        }
-        if (letter==="i") {
-            i = 0;
-            for (elem of wordToGuest) {
-                if ("í" === wordToGuest[i] || "ì" === wordToGuest[i] || "î" === wordToGuest[i] || "ï" === wordToGuest[i]) {
-                    youFind++;numberLetterToGuest--;
-                    document.getElementById("letter" + i).textContent = wordToGuest[i];
-                    document.getElementById(letter).className = "letterPickGood";
-                }
-                document.querySelector("#" + letter).dataset.status = 1;
-                i++;
-            }
-        }
-        if (letter==="o") {
-            i = 0;
-            for (elem of wordToGuest) {
-                if ("ó" === wordToGuest[i] || "ò" === wordToGuest[i] || "ô" === wordToGuest[i] || "ö" === wordToGuest[i]) {
-                    youFind++;numberLetterToGuest--;
-                    document.getElementById("letter" + i).textContent = wordToGuest[i];
-                    document.getElementById(letter).className = "letterPickGood";
-                }
-                document.querySelector("#" + letter).dataset.status = 1;
-                i++;
-            }
-        }
-        if (letter==="u") {
-            i = 0;
-            for (elem of wordToGuest) {
-                if ("ú" === wordToGuest[i] || "ù" === wordToGuest[i] || "û" === wordToGuest[i] || "ü" === wordToGuest[i]) {
-                    youFind++;numberLetterToGuest--;
-                    document.getElementById("letter" + i).textContent = wordToGuest[i];
-                    document.getElementById(letter).className = "letterPickGood";
-                }
-                document.querySelector("#" + letter).dataset.status = 1;
-                i++;
-            }
         }
         if (youFind===0) {
             document.getElementById(letter).className="letterPickBad";
